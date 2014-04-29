@@ -7,7 +7,7 @@ $visit_name = array('오늘', '어제', '최대', '전체');
 ?>
 <div class='stats-container'>
 	<div class='stats-title'>
-		<img src="<?=x::url()?>./widget/<?=$widget_config['name']?>/img/stat-icon.png"/>접속자 통계
+		<img src="<?=x::url()?>/widget/<?=$widget_config['name']?>/img/stat-icon.png"/>접속자 통계
 	</div>
 	<div class='stats-content'>
 		<?for( $i=0; $i<=3; $i++) { 
