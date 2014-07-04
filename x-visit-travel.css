@@ -1,8 +1,9 @@
 /* STATISTICS.PHP */
 .stats-container {
 	border: solid 1px #bbbbbb;
-	height: 91%;
-	padding-bottom: 15px;
+	height: 159px;
+	padding-bottom: 9px;
+	/*padding-bottom: 15px;*/	
 }
 
 .stats-title {
@@ -23,7 +24,7 @@
 }
 
 .stats-content .per-stats {
-	padding: 8px 0 8px 0;
+	/*padding: 8px 0;*/
 	border-bottom: 1px solid #bbbbbb;
 	position: relative;
 }
@@ -32,4 +33,11 @@
 	color: #cc4235;
 	position: absolute;
 	right: 0;
+}
+
+/*added for admin height bug*/
+.stats-container a{
+	text-decoration:none;
+	position:relative;
+	top:4px;
 }

@@ -19,4 +19,14 @@ $visit_name = array('오늘', '어제', '최대', '전체');
 		<?php if ($is_admin == "super") {  ?><a href="<?php echo G5_ADMIN_URL ?>/visit_list.php">상세보기</a><?php } ?>
 	</div>
 </div>
-
+<style>
+<?php if ($is_admin == "super") {  ?>
+.stats-content .per-stats {
+	padding: 6px 0;
+}
+<?php } else{?>
+.stats-content .per-stats {
+	padding: 8px 0;
+}
+<?}?>
+</style>
